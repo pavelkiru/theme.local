@@ -69,8 +69,8 @@ function sunset_sidebar_name() {
 }
 
 function sunset_sidebar_user_description() {
-  $description = esc_attr( get_option('sunset_sidebar_user_description'));
-  echo '<input type="text" name="description" value="'.$description.'" placeholder="description" />';
+  $user_description = esc_attr( get_option('user_description'));
+  echo '<input type="text" name="user_description" value="'.$user_description.'" placeholder="Description" />';
 }
 
 function sunset_theme_create_page() {

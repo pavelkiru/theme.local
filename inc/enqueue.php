@@ -7,7 +7,7 @@
 
 
 function sunset_load_admin_scripts($hook) {
-  echo $hook;
+ // echo $hook;
   if("toplevel_page_alecaddd_sunset" != $hook) {
     return;
   }
