@@ -11,7 +11,7 @@
 
 ?>
 
-gfgfgf
+
 <?php wp_footer(); ?>
 
 </body>
