@@ -11,7 +11,13 @@
 
 ?>
 
+<div>
+<?php
+$firstName = esc_attr( get_option('first_name'));
 
+echo $firstName;
+?>
+</div>
 <?php wp_footer(); ?>
 
 </body>

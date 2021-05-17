@@ -2,6 +2,7 @@ import './scss/styles.scss'
 
 import './js/module1'
 import './js/module2'
+import './js/sunset.admin'
 
 /*
  * import from NODE MODULES
