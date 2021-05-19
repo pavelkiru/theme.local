@@ -22,11 +22,11 @@
     </div>
   </div>
 
-  <form method="post" action="options.php">
+  <form method="post" action="options.php" class="sunset-general-form">
     <?php
       settings_fields('sunset-settings-group');
       do_settings_sections('alecaddd_sunset');
-      submit_button();
+      submit_button('Save Changes', 'primary','btnSubmit');
     ?>
   </form>
 </div>

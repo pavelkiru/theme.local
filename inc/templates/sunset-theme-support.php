@@ -2,10 +2,10 @@
 <?php settings_errors();?>
 
 
-<form method="post" action="options.php">
+<form method="post" action="options.php" class="sunset-general-form">
   <?php
-  settings_fields('sunset-theme-support');
-  do_settings_sections('alecaddd_sunset_theme');
-  submit_button();
+    settings_fields('sunset-theme-support');
+    do_settings_sections('alecaddd_sunset_theme');
+    submit_button();
   ?>
 </form>
